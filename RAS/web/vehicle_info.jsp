@@ -17,10 +17,10 @@
             <hr>
             <s:form action="createAccount">
                 <h3>Vehicle Information: </h3>
-                <s:textfield name="car_make" label="Car Make"></s:textfield>
-                <s:textfield name="car_model" label="Car Model"></s:textfield>
-                <s:textfield name="car_color" label="Car Color"></s:textfield>
-                <s:textfield name="license_no" label="License Number"></s:textfield>
+                <s:textfield name="carMake" label="Car Make"></s:textfield>
+                <s:textfield name="carModel" label="Car Model"></s:textfield>
+                <s:textfield name="carColor" label="Car Color"></s:textfield>
+                <s:textfield name="carLicense" label="License Number"></s:textfield>
                 <s:submit value="Create Account"></s:submit>
             </s:form>
         </p>

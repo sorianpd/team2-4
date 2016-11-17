@@ -18,7 +18,7 @@
             <hr>
             <s:form action="continue">
                 <h3>Account Information: </h3>
-                <s:textfield name="user_id" label="Username"></s:textfield>
+                <s:textfield name="userId" label="Username"></s:textfield>
                 <s:password name="password" label="Password"></s:password>
                 <s:password name="reenter_password" label="Re-enter Password"></s:password>
                 <s:textfield name="name" label="Name"></s:textfield>

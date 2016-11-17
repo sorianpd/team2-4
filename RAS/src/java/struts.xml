@@ -10,19 +10,19 @@
             <result name="success">/welcome.jsp</result>
         </action>
 
-        <action name="continue" class="action.UserActions" >
+        <action name="continue" class="action.AccountInfoActions" >
+            <result name="input">/account_info.jsp</result>
             <result name="success">/vehicle_info.jsp</result>
-            <result name="input">/vehicle_info.jsp</result>
         </action>
         
-        <action name="createAccount" class="action.UserActions" >
-            <result name="success">/vehicle_info.jsp</result>
+        <action name="createAccount" class="action.VehicleInfoActions" >
             <result name="input">/vehicle_info.jsp</result>
-
+            <result name="success">/welcome.jsp</result>
+        </action> 
+        
         <action name="review" class="action.ReviewActions">
             <result name="input">/submitReview.jsp</result>
             <result name="success">/reviews.jsp</result>
-            
         </action>
     </package>
 </struts>
