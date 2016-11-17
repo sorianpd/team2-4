@@ -55,6 +55,7 @@ public class UserActions extends com.opensymphony.xwork2.ActionSupport {
     
     private String user_id; 
     private String password; 
+    private String reenter_password;
     
     
     
