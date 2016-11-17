@@ -1,12 +1,5 @@
 package action;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import static model.UserPersistence.*;
-import javax.servlet.http.HttpSession;
-import org.apache.struts2.ServletActionContext;
-
-
 /**
  *
  * @author bittnemk
